@@ -1,0 +1,23 @@
+name: themify_flutter
+description: Themify icon set available as Flutter icons.
+author: Miguel Ruivo <miguel@miguelruivo.com>
+homepage: https://github.com/miguelpruivo/themify_flutter
+version: 1.0.0
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  fonts:
+    - family: Themify
+      fonts:
+        - asset: lib/fonts/Themify.ttf
+
